@@ -1,0 +1,110 @@
+.App {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  width: 100%;
+}
+
+.body{
+  background-color:#c7c7c7;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  min-height:850px;
+  height:auto;
+}
+
+.title{
+  text-align:center;
+  line-height:120px;
+  height:150px;
+  width:700px;
+  font-family:Verdana;
+  font-weight:bold;
+  font-size: 250%;
+  border: solid 2px #47006b;
+  border-radius: 30%;
+  background-color: #a1afc7;
+}
+
+
+.listStructure{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  padding-top:10px;
+ 
+}
+
+.form{
+  text-align:center;
+  width:600px;
+  margin-bottom:10px;
+}
+
+
+.list{
+  width:700px;
+  min-height:500px;
+  height:auto;
+  border: solid 2px #47006b;
+  border-radius:10% / 50%;
+  background-color: #a1afc7;
+
+  display:flex;
+  font-family: Verdana;
+  font-weight:bold;
+  letter-spacing: 1.2px;
+  font-size:20px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+}
+
+.listElement{
+  padding:10px;
+  display:flex;
+  width:600px;
+}
+
+.listTodos{
+  list-style-type:none;
+}
+
+input.checkspot{
+  cursor: pointer;
+  width:20px;
+  height:20px;
+}
+
+input{
+  font-size:20px;
+  width:400px;
+  height:25px;
+}
+
+input:focus{
+  outline:none;
+  border: 3px solid #555;
+}
+
+button{
+  font-size:20px;
+  border:none;
+  background-color:#47006b;
+  color: white;
+  padding: 10px;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
